@@ -23,11 +23,11 @@ let networks = {
   "9mobile": ["0809","0817","0818", "0908","0909"]
 }
 let images = {
-  "glo": "/images/glo.png",
-  "airtel": "/images/airtel.svg",
-  "mtn": "/images/mtn.jpeg",
-  "9mobile": "/images/9mobile.png",
-  "unknown": "/images/question.png"
+  "glo": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/glo.png",
+  "airtel": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/airtel.svg",
+  "mtn": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/mtn.jpeg",
+  "9mobile": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/9mobile.png",
+  "unknown": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/question.png"
 }
 let logo = document.querySelector("#logo");
 logo.setAttribute("width", (logo.parentElement.clientHeight-4)+"px");
