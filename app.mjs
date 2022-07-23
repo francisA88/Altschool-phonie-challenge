@@ -24,8 +24,8 @@ let networks = {
 }
 let images = {
   "glo": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/glo.png",
-  "airtel": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/airtel.svg",
-  "mtn": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/mtn.jpeg",
+  "airtel": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/Airtel.svg",
+  "mtn": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/MTN.jpeg",
   "9mobile": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/9mobile.png",
   "unknown": "https://raw.githubusercontent.com/francisA88/Altschool-phonie-challenge/main/images/question.png"
 }
