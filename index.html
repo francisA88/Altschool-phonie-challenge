@@ -4,14 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
+    <title>Phonie</title>
+    <link rel="stylesheet" href="iconfont/material-icons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/bulma.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
-
+    <header>
+      <h3 class="title">Contact Details</h5>
+    </header>
+    <main>
+      <h4 class="title">
+        Enter Details
+      </h4>
+      <div class="field has-addons has-addons-centered tel-field">
+        <p class="control">
+          <a class="button is-primary is-outlined is-smal" style="background:white">
+            <img id="logo" src="./images/question.png" alt="?" width=""/>
+          </a>
+        </p>
+        <p class="control">
+          <input id="tel" class="input is-primary is-smal" type="tel" placeholder="Telephone number" list="tel-suggestions">
+        </p>
+        <p class="control">
+          <button class="button is-primary material-icons is-smal" style="font-weight:bolder">
+            done
+          </button>
+        </p>
+      </div>
+      <div class="field has-addons-centered has-addons">
+        <p class="control">
+          <a class="button is-primary is-outlined material-icons">
+            mail_outline
+          </a>
+        </p>
+        <p class="control">
+          <input class="input is-primary" type="email" placeholder="Email"/>
+        </p>
+      </div>
+      <a class="button is-primary is-outlined" href="" id="submit">
+        Submit
+      </a>
+    </main>
+    <footer class="mygreen-bg">
+      <ul class="white-text">
+        <li><h4 class="tangerine white-text bolder ftitle"><i>Phonie</i></h4></li>
+        <li class="bolder tangerine ld">Developer</li>
+        <li class="tangerine ldname bold">Francis Ali - <a href="https://github.com/francisA88" class="white-text" style="text-decoration: 1px underline white">https://github.com/francisA88</a></li>
+        <li class="tangerine bold"><a href="https://www.facebook.com/francis.a.9022" style="font-size:1.5rem;text-decoration:1px underline white" class="white-text">https://www.facebook.com/francis.a.9022</a></li>
+        <li class="tangerine bold"><a href="https://twitter.com/IlaSicnarf" style="font-size:1.5rem;text-decoration:1px underline white" class="white-text">https://twitter.com/IlaSicnarf</a></li>
+        <li class="tangerine bold"><a href="https://www.linkedin.com/in/francis-ali-b95880190" style="font-size:1.5rem;text-decoration:1px underline white" class="white-text">https://www.linkedin.com/in/francis-ali-b95880190</a></li>
+      </ul>
+    </footer>
+    <div id="base-text" >Created For The Altschool Holiday Challenge</div>
+    <datalist id="tel-suggestions">
+    </datalist>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->

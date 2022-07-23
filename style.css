@@ -1,0 +1,95 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+header{
+  min-width: 100vw;
+  width: 100vw;
+  max-width: 100vw;
+  height: 50px;
+  border-radius: 0 0 9px 9px;
+  box-shadow: 0 4px 4px #CCCC;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@font-face{
+  src: url("./css/Tangerine-Regular.ttf");
+  font-family: Tangerine;
+}
+.tangerine{
+  font-family: tangerine;
+}
+.bold{font-weight: bold;}
+.bolder{font-weight: bolder;}
+.title{
+  color: #366449;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: Tangerine;
+}
+.mygreen-bg{
+  background-color: #366449;
+}
+.mygreen-text{
+  color: #366449;
+}
+.white-text{
+  color: white;
+}
+.tel-field{
+  height: 50px;
+  width: 95%;
+}
+main{
+  min-height: calc(100vh - 50px);
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer{
+  padding: 10px;
+  border-radius: inset 0 0 8px 8px;
+}
+@media screen and (max-width:599px){
+  footer{
+    text-align: center;
+  }
+}
+/**Inside the footer**/
+.ftitle{
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  color: #00ff9b;
+  -webkit-text-stroke: 1px #CCC;
+}
+.fcircle{ font-size: 1.9em; }
+.ld{
+  font-size: 2.3em;
+  color: #00ff9b;
+}
+.ldname{ font-size: 1.5em; }
+.name{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#base-text{
+  width: 100%;
+  height: 30px;
+  font-size: .8rem;
+  font-family: Serif;
+ 
+  background-color: #EEE; /*black;*/
+  font-style: italic;
+  color: #366449; /*#CCC;*/
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
