@@ -46,7 +46,7 @@ function watchInput(){
     for (let nw of networkNames){
       if (networks[nw].includes(prefix)){
         //logo.setAttribute("src",location.origin+images[nw]);
-        logo.src = location.origin+images[nw];
+        logo.src = images[nw];
         /*console.log(prefix, nw);
         console.log(images[nw]);*/
         found ^=1;
@@ -55,7 +55,7 @@ function watchInput(){
     if (!found){
       //logo.setAttribute("src", images['unknown']);
        // console.log(prefix)
-       logo.src = location.origin + images['unknown'];
+       logo.src = images['unknown'];
     }
   })
 }
