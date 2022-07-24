@@ -31,6 +31,7 @@ let images = {
 }
 let logo = document.querySelector("#logo");
 logo.setAttribute("width", (logo.parentElement.clientHeight-4)+"px");
+logo.style.height = `${(logo.parentElement.clientHeight -4)}px`
 let inp = document.querySelector("#tel");
 function watchInput(){
   inp.addEventListener("input", function(e){
